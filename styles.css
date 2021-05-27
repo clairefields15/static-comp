@@ -1,5 +1,10 @@
 main {
-  background-color: purple;
+  background-color: #d3d3d3;
+  font-family: "Caveat", cursive;
+}
+
+body {
+  background-color: #d3d3d3;
 }
 
 /*# sourceMappingURL=styles.css.map */

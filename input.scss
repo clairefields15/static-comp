@@ -3,10 +3,15 @@
 
 
 
-$font-stack: Helvetica, sans-serif;
-$background-color:purple;
+$font-stack: 'Caveat', cursive;
+$background-color: #d3d3d3;
 
 
 main {
-  background-color: $background-color
+  background-color: $background-color;
+  font-family: $font-stack
+}
+
+body {
+  background-color: $background-color;
 }
