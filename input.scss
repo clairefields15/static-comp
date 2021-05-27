@@ -1,0 +1,12 @@
+// run this in terminal to compile automatically on save
+// sass --watch input.scss styles.css
+
+
+
+$font-stack: Helvetica, sans-serif;
+$background-color:purple;
+
+
+main {
+  background-color: $background-color
+}
