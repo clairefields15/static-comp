@@ -2,20 +2,232 @@
   <head>
     <link rel="stylesheet" href="./styles.css">
     <html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Static Comp</title>
   </head>
   <body>
     <header>
+      <img src="assets/fetch-logo.png" class="logo" alt="fetch conference 2021 logo">
+      <h1 class="hidden">Fetch Conference 2021</h1>
       <nav>
-        <h1>LOGO</h1>
+        <img src="assets/hamburger-menu.png" class="mobile-nav" alt="menu dropdown">
+        <ul class="desktop-nav">
+          <li><img src="./assets/registration-26.png" class="nav-icon" alt="registration icon">Register</li>
+          <li><img src="./assets/schedule-26.png" class="nav-icon" alt="schedule icon">Schedule</li>
+          <li><img src="./assets/faq-26.png" class="nav-icon" alt="faq icon">FAQ</li>
+        </ul>
       </nav>
     </header>
+    <section class="schedule-of-events">
+        <h2>Schedule of Events</h2>
+    </section>
     <main>
-      <h1>hi </h1>
+      <div class="presenters">
+<!-- mr bubz -->
+        <article class="card">
+          <div class="image-area">
+            <div class="image-container">
+              <img src="./assets/info-50.png" class="info-icon" alt="info icon">
+              <div class="date-container">
+                <p class="month">April</p>
+                <p class="date">20</p>
+              </div>
+              <img src="./assets/mr-bubz.jpeg" class="presenter-photo" alt="Mr. Bubz dog img">
+            </div>
+          </div>
+          <div class="text-area">
+            <h3 class="talk-title">Death to the Garbageman</h3>
+            <p>Friday 4/20/21 10:00am</p>
+            <div class="subtitle-box">
+              <h4 class="talk-subtitle">Are YOU ready for my sweetly planned revenge, Trash boy?!<br> HAIL TO BUBZ!!!</h4>
+            </div>
+            <p>Presented by:</p>
+            <h5 class="presenter-name">Lord Master Bubz</h5>
+            <p>Location:</p>
+            <h6 class="talk-location">Mile High Ballroom</h6>
+          </div>
+        </article>
+<!-- berkley -->
+        <article class="card">
+          <div class="image-area">
+            <div class="image-container">
+              <img src="./assets/info-50.png" class="info-icon" alt="info icon">
+              <div class="date-container">
+                <p class="month">April</p>
+                <p class="date">20</p>
+              </div>
+              <img src="./assets/berkley.jpg" class="presenter-photo" alt="Berkley dog img">
+            </div>
+          </div>
+          <div class="text-area">
+            <h3 class="talk-title">Who's a Good Boy?</h3>
+            <p>Friday 4/20/21 11:00am</p>
+            <div class="subtitle-box">
+              <h4 class="talk-subtitle">Digging deep into the mystery of the eternal question... Is it you?</h4>
+            </div>
+            <p>Presented by:</p>
+            <h5 class="presenter-name">Berkley</h5>
+            <p>Location:</p>
+            <h6 class="talk-location">Mile High Ballroom</h6>
+          </div>
+        </article>
+<!-- odin -->
+        <article class="card">
+          <div class="image-area">
+            <div class="image-container">
+              <img src="./assets/info-50.png" class="info-icon" alt="info icon">
+              <div class="date-container">
+                <p class="month">April</p>
+                <p class="date">21</p>
+              </div>
+              <img src="./assets/odin.jpeg" class="presenter-photo" alt="Odin dog img">
+            </div>
+          </div>
+          <div class="text-area">
+            <h3 class="talk-title">Round Boi Summer</h3>
+            <p>Saturday 4/21/21 10:30am</p>
+            <div class="subtitle-box">
+              <h4 class="talk-subtitle">Shake the shame of snack time and love yourself!!</h4>
+            </div>
+            <p>Presented by:</p>
+            <h5 class="presenter-name">Odin</h5>
+            <p>Location:</p>
+            <h6 class="talk-location">Rooms 405-407</h6>
+          </div>
+        </article>
+<!-- carlito -->
+        <article class="card">
+          <div class="image-area">
+            <div class="image-container">
+              <img src="./assets/info-50.png" class="info-icon" alt="info icon">
+              <div class="date-container">
+                <p class="month">April</p>
+                <p class="date">21</p>
+              </div>
+              <img src="./assets/carlito.jpeg" class="presenter-photo" alt="Carlito dog img">
+            </div>
+          </div>
+          <div class="text-area">
+            <h3 class="talk-title">The Sun'll Come Out Tomorrow</h3>
+            <p>Saturday 4/21/21 11:30am</p>
+            <div class="subtitle-box">
+              <h4 class="talk-subtitle">How to make it through ruff times with the power of paws-itivity</h4>
+            </div>
+            <p>Presented by:</p>
+            <h5 class="presenter-name">Carlito</h5>
+            <p>Location:</p>
+            <h6 class="talk-location">Mile High Ballroom</h6>
+          </div>
+        </article>
+<!-- jasmine -->
+        <article class="card">
+          <div class="image-area">
+            <div class="image-container">
+              <img src="./assets/info-50.png" class="info-icon" alt="info icon">
+              <div class="date-container">
+                <p class="month">April</p>
+                <p class="date">21</p>
+              </div>
+              <img src="./assets/jasmine.jpeg" class="presenter-photo" alt="Jasmine dog img">
+            </div>
+          </div>
+          <div class="text-area">
+            <h3 class="talk-title">Inside the Mind of the Enemy</h3>
+            <p>Saturday 4/21/21 1:00pm</p>
+            <div class="subtitle-box">
+              <h4 class="talk-subtitle">Unlocking the psychology of the squirrel</h4>
+            </div>
+            <p>Presented by:</p>
+            <h5 class="presenter-name">Jasmine</h5>
+            <p>Location:</p>
+            <h6 class="talk-location">Mile High Ballroom</h6>
+          </div>
+        </article>
+<!-- rambo -->
+        <article class="card">
+          <div class="image-area">
+            <div class="image-container">
+              <img src="./assets/info-50.png" class="info-icon" alt="info icon">
+              <div class="date-container">
+                <p class="month">April</p>
+                <p class="date">22</p>
+              </div>
+              <img src="./assets/rambo-sploot.jpg" class="presenter-photo" alt="Rambo dog img">
+            </div>
+          </div>
+          <div class="text-area">
+            <h3 class="talk-title">Monetizing the Sploot</h3>
+            <p>Sunday 4/22/21 10:00am</p>
+            <div class="subtitle-box">
+              <h4 class="talk-subtitle">You know you're cute, now beat the instagram algorithm and show the world 🍑 🍑 🍑</h4>
+            </div>
+            <p>Presented by:</p>
+            <h5 class="presenter-name">Rambo</h5>
+            <p>Location:</p>
+            <h6 class="talk-location">Room 405-407</h6>
+          </div>
+        </article>
+<!-- zapatito -->
+        <article class="card">
+          <div class="image-area">
+            <div class="image-container">
+              <img src="./assets/info-50.png" class="info-icon" alt="info icon">
+              <div class="date-container">
+                <p class="month">April</p>
+                <p class="date">22</p>
+              </div>
+              <img src="./assets/zapatito.jpg" class="presenter-photo" alt="Zapatito dog img">
+            </div>
+          </div>
+          <div class="text-area">
+            <h3 class="talk-title">Insomnia No More</h3>
+            <p>Sunday 4/22/21 11:00am</p>
+            <div class="subtitle-box">
+              <h4 class="talk-subtitle">How to sleep literally anywhere, anytime.</h4>
+            </div>
+            <p>Presented by:</p>
+            <h5 class="presenter-name">Zapatito</h5>
+            <p>Location:</p>
+            <h6 class="talk-location">Mile High Ballroom</h6>
+          </div>
+        </article>
+<!-- tika -->
+        <article class="card">
+          <div class="image-area">
+            <div class="image-container">
+              <img src="./assets/info-50.png" class="info-icon" alt="info icon">
+              <div class="date-container">
+                <p class="month">April</p>
+                <p class="date">22</p>
+              </div>
+              <img src="./assets/tika.jpeg" class="presenter-photo" alt="Tika dog img">
+            </div>
+          </div>
+          <div class="text-area">
+            <h3 class="talk-title">Loving it AND Wearing it</h3>
+            <p>Sunday 4/22/21 1:00pm</p>
+            <div class="subtitle-box">
+              <h4 class="talk-subtitle">Your wardrobe is meant to be enjoyed! There's no reason too small to feel fabulous.</h4>
+            </div>
+            <p>Presented by:</p>
+            <h5 class="presenter-name">Tika</h5>
+            <p>Location:</p>
+            <h6 class="talk-location">Mile High Ballroom</h6>
+          </div>
+        </article>
+
+
+      </div>
     </main>
     
   </body>
-    <script type="text/javascript" src="main.js"></script>
+    <!-- <script type="text/javascript" src="main.js"></script> -->
 </html>
