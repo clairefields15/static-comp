@@ -2,18 +2,82 @@
   <head>
     <link rel="stylesheet" href="./styles.css">
     <html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Static Comp</title>
   </head>
   <body>
     <header>
+      <div class="logo-container">
+        <img src="assets/fetch.png" class="logo" alt="playing dog icon">
+        <div class="logo-text">
+          <h1>Fetch <span>Conference 2021</span></h1>
+        </div>
+      </div>
       <nav>
-        <h1>LOGO</h1>
+        <img src="assets/hamburger-menu.png" class="nav-icon" alt="menu dropdown">
+        <ul class="hidden">
+          <li><img src="./assets/registration-48.png" class="nav-icon" alt="registration icon">Register</li>
+          <li><img src="./assets/schedule.png" class="nav-icon" alt="schedule icon">Schedule</li>
+          <li><img src="./assets/faq-50.png" class="nav-icon" alt="faq icon">FAQ</li>
+        </ul>
       </nav>
     </header>
+    <section class="schedule-of-events">
+        <h2>Schedule of Events</h2>
+    </section>
     <main>
-      <h1>hi </h1>
+      <div class="presenters">
+        <article class="card">
+          <div class="image-area">
+            <div class="image-container">
+              <img src="./assets/info-50.png" class="info-icon" alt="info icon">
+              <img src="./assets/mr-bubz.png" class="presenter-photo" alt="Mr. Bubz dog img">
+              <div class="date-container">
+                <p>April</p>
+                <p class="date">20</p>
+              </div>
+            </div>
+          </div>
+          <div class="text-area">
+            <h3>Title of Talk</h3>
+            <p>Friday 4/20/21 10:00am</p>
+            <div class="subtitle-box">
+              <h4>Subtitle of talk</h4>
+            </div>
+            <p>Presented by:</p>
+            <h5>Master Bubz</h5>
+            <p>Location:</p>
+            <h6>Mile High Ballroom</h6>
+          </div>
+        </article>
+        <article class="card">
+          <div class="image-area">
+            <img src="./assets/info-50.png" class="info-icon" alt="info icon">
+            <img src="./assets/mr-bubz.png" class="presenter-photo" alt="Mr. Bubz dog img">
+            <p>April</p>
+            <p class="date">20</p>
+          </div>
+          <div class="text-area">
+            <h3>Title of Talk</h3>
+            <p>Friday 4/20/21 10:00am</p>
+            <div class="subtitle-box">
+              <h4>Subtitle of talk</h4>
+            </div>
+            <p>Presented by:</p>
+            <h5>Master Bubz</h5>
+            <p>Location:</p>
+            <h6>Mile High Ballroom</h6>
+          </div>
+        </article>
+
+
+      </div>
     </main>
     
   </body>
