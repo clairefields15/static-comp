@@ -21,16 +21,24 @@ Adding JavaScript was not a requirement of the project, but I added a tiny bit, 
 ![gif of mobile nav bar](https://media.giphy.com/media/71ohdbZ2ZIXu9m7EyF/giphy.gif)
 
 
-The website utilizes media queries to set css rules across several breakpoints:
+The website is fully responsive and utilizes media queries to set css rules across several breakpoints:
+
+![gif showing full responsiveness](https://media.giphy.com/media/V2Z57LUHBUBs7AOWBo/giphy.gif)
+
+
 * Small tablet size: 620px and up
 
 ![small tablet size](https://imgur.com/AsaNU3x.jpg)
 
 * Large tablet size: 900px and up
+
+![large tablet size](https://imgur.com/ss0w5p0.jpg)
+
 * Desktop size: 1200px and up
 
+![fetch conference 2021 desktop](https://imgur.com/iVpkmW4.jpg)
 
-![gif showing full responsiveness](https://media.giphy.com/media/V2Z57LUHBUBs7AOWBo/giphy.gif)
+
 
 ## Future Additions
 
