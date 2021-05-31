@@ -6,7 +6,7 @@ This weekend-long project was an opportunity to play with responsive design and 
 [Fetch Conference 2021](https://clairefields15.github.io/static-comp/) is, regrettably, not a real conference, but I hope you enjoy looking through the schedule of events and dog-earing which talks you might like to attend over the long weekend.
 
 ## The Provided Comp
-![Provided comp layout](https://frontend.turing.edu/assets/images/static-comp-challenge-2.jpg)
+![Provided comp layout](https://imgur.com/VnvpqHF.jpg)
 
 ## Fetch Conference 2021
 ![fetch conference 2021 desktop](https://imgur.com/iVpkmW4.jpg)
