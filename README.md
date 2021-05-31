@@ -14,7 +14,7 @@ This weekend-long project was an opportunity to play with responsive design and 
 ## Features
 This is a fully responsive static site that was built mobile-first.
 
-![gif of mobile version](https://media.giphy.com/media/YI2Zg4dDAKpTHr8KCj/giphy.gif)
+![gif of mobile version](https://media.giphy.com/media/fYhtYZ64tgZcrKz4zU/giphy.gif)
 
 
 Adding JavaScript was not a requirement of the project, but I added a tiny bit, just so that you can see this mobile navigation bar in action.
