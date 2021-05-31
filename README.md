@@ -23,7 +23,8 @@ Adding JavaScript was not a requirement of the project, but I added a tiny bit, 
 
 The website utilizes media queries to set css rules across several breakpoints:
 * Small tablet size: 620px and up
-![small tablet size](https://imgur.com/AsaNU3x)
+
+![small tablet size](https://imgur.com/AsaNU3x.jpg)
 
 * Large tablet size: 900px and up
 * Desktop size: 1200px and up
