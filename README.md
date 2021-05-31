@@ -9,10 +9,11 @@ This weekend-long project was an opportunity to play with responsive design and 
 ![Provided comp layout](https://frontend.turing.edu/assets/images/static-comp-challenge-2.jpg)
 
 ## Fetch Conference 2021
-![fetch conference 2021 desktop](https://imgur.com/iVpkmW4)
+![fetch conference 2021 desktop](https://imgur.com/iVpkmW4.jpg)
 
 ## Features
-This is a fully responsive static site that was built mobile-first. 
+This is a fully responsive static site that was built mobile-first.
+
 ![gif of mobile version](https://media.giphy.com/media/YI2Zg4dDAKpTHr8KCj/giphy.gif)
 
 
