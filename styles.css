@@ -4,7 +4,6 @@
   padding: 0;
   border: 0;
   vertical-align: baseline;
-  /* border: 1px solid blue; */
 }
 
 /* general rules */
@@ -36,6 +35,41 @@ header {
   z-index: 3;
 }
 
+.mobile-nav {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  right: 10px;
+  top: 1.75em;
+  z-index: 2;
+}
+
+.close-nav {
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  right: 10px;
+  top: 1.75em;
+  z-index: 2;
+}
+
+.mobile-dropdown-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  height: auto;
+  width: 60vw;
+  opacity: 0.95;
+  position: absolute;
+  right:0px;
+  top: 0px;
+  list-style-type: none;
+  color: white;
+  padding: 2em;
+  box-shadow:0 0 0 10000px rgba(0,0,0,.50);
+}
+
 .schedule-of-events {
   margin: 1em;
 }
@@ -48,6 +82,12 @@ header {
 .nav-icon {
   height: 24px;
   width: 24px;
+  margin-right: 0.25em;
+}
+
+li {
+  margin: 0.75em;
+  font-size: 1em;
 }
 
 .desktop-nav {
@@ -162,10 +202,6 @@ header {
 
 /* tablet size */
 @media screen and (min-width: 620px) {
-  /* body {
-    background-color: orange;
-  } */
-
   .presenters {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -183,20 +219,15 @@ header {
     color: white;
   }
 
-  li {
-    margin: 0.75em;
+  .desktop-nav>li:hover {
+    font-size: larger;
+    cursor: pointer;
   }
 
-  .nav-icon {
-    margin-right: 0.25em;
-  }
 }
 
 /* large tablet size */
 @media screen and (min-width: 900px) {
-  /* body {
-    background-color: yellow;
-  } */
 
   .presenters {
     display: grid;
@@ -215,21 +246,15 @@ header {
     color: white;
   }
 
-  li {
-    margin: 0.75em;
+  .desktop-nav>li:hover {
+    font-size: larger;
+    cursor: pointer;
   }
 
-  .nav-icon {
-    margin-right: 0.25em;
-  }
 }
 
 /* desktop size */
 @media screen and (min-width: 1200px) {
-  /* body {
-    background-color: yellowgreen;
-  } */
-
   .presenters {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -247,13 +272,11 @@ header {
     color: white;
   }
 
-  li {
-    margin: 0.75em;
+  .desktop-nav>li:hover {
+    font-size: larger;
+    cursor: pointer;
   }
 
-  .nav-icon {
-    margin-right: 0.25em;
-  }
 }
 
 /* hidden */
