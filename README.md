@@ -39,9 +39,8 @@ The website is fully responsive and utilizes media queries to set css rules acro
 ![fetch conference 2021 desktop](https://imgur.com/iVpkmW4.jpg)
 
 
-
 ## Future Additions
-
+I am unlikely to add any future additions to this project, but some avenues for improvement include small css animations to improve the UI such as ripples on buttons in mobile view.
 
 ## Technologies
 HTML, CSS and vanilla JavaScript
