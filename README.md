@@ -18,6 +18,7 @@ This is a fully responsive static site that was built mobile-first.
 
 
 Adding JavaScript was not a requirement of the project, but I added a tiny bit, just so that you can see this mobile navigation bar in action.
+
 ![gif of mobile nav bar](https://media.giphy.com/media/71ohdbZ2ZIXu9m7EyF/giphy.gif)
 
 
