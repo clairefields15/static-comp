@@ -1,7 +1,7 @@
 # Static Comp
 
 ## Introduction
-This weekend-long project was an opportunity to play with responsive design and flex some html and css muscles. We were provided with a [project spec](https://frontend.turing.edu/projects/module-1/m1-static-comp) and a desktop version a generic website to match. The objective of the project was to build something that respected the integrity of the original design, while not necessarily matching the font, copy, and images. Because the spec was a fairly formal, business-style website, I created a website for a conference. 
+This weekend-long project was an opportunity to play with responsive design and flex some html and css muscles. We were provided with a [project spec](https://frontend.turing.edu/projects/module-1/m1-static-comp) and a desktop version a generic website to match. The objective of the project was to build something that respected the integrity of the original design, while not necessarily matching the font, copy, and images. Because the spec was a fairly formal, business-style website, I created a website for a conference.
 
 [Fetch Conference 2021](https://clairefields15.github.io/static-comp/) is, regrettably, not a real conference, but I hope you enjoy looking through the schedule of events and dog-earing which talks you might like to attend over the long weekend.
 
@@ -40,10 +40,20 @@ The website is fully responsive and utilizes media queries to set css rules acro
 
 
 ## Future Additions
-I am unlikely to add any future additions to this project, but some avenues for improvement include small css animations to improve the UI such as ripples on buttons in mobile view.
+
+While I am unlikely to add many future additions to this project, a few small css animations could really make the UI/UX pop!
+
+- Ripples or some other kind of visual cue on button-tap in mobile view
+
+- Adding a subtle animation to the jumping dog in the logo (on scroll of when you reach the end of the page) would add a little fun! 
+
+- Designing my own icons- animating the transition from hamburger button to close (X) button.
+
+
 
 ## Technologies
 HTML, CSS and vanilla JavaScript
+Procreate to design the logo
 
 ## Contributors
 Claire Fields, Front End Engineering student at the Turing School of Software and Design, currently in Mod 2 of 4.
